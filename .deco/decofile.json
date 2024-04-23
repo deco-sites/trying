@@ -4,8 +4,15 @@
     "desktop": true
   },
   "Faq - default": {
-    "title": "FAQs",
-    "__resolveType": "site/sections/Faq.tsx"
+    "title": "FAQ 3",
+    "__resolveType": "site/sections/Faq.tsx",
+    "questions": [],
+    "description": "bla4",
+    "cta": {
+      "id": "teste",
+      "text": "tweste",
+      "href": "faq"
+    }
   },
   "Groovy Vibes": {
     "__resolveType": "site/sections/Theme/Theme.tsx",
@@ -89,7 +96,11 @@
     "__resolveType": "site/sections/Faq.tsx"
   },
   "Preview /sections/Footer.tsx": {
-    "__resolveType": "site/sections/Footer.tsx"
+    "__resolveType": "site/sections/Footer.tsx",
+    "links": [],
+    "bottomLinks": [],
+    "social": [],
+    "subscribe": {}
   },
   "Preview /sections/Header.tsx": {
     "__resolveType": "site/sections/Header.tsx"
@@ -113,6 +124,10 @@
   "Preview Sections MyHero": {
     "name": "works!",
     "__resolveType": "site/sections/myHero.tsx"
+  },
+  "Preview site/sections/Faq.tsx": {
+    "__resolveType": "site/sections/Faq.tsx",
+    "questions": []
   },
   "Preview site/sections/ImageWithParagraph.tsx": {
     "__resolveType": "site/sections/ImageWithParagraph.tsx"
@@ -228,6 +243,9 @@
       ]
     }
   },
+  "analytics": {
+    "__resolveType": "decohub/apps/analytics.ts"
+  },
   "app-decohub%2Fapps%2Fhtmx.ts": {
     "__resolveType": "decohub/apps/htmx.ts",
     "version": "1.9.11"
@@ -278,7 +296,7 @@
       {
         "__resolveType": "site/sections/Hero.tsx",
         "cta": [],
-        "title": "<p>Click here to tweak this text however you want.</p>",
+        "title": "<p>Salve 22</p>",
         "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
       },
       {
@@ -301,7 +319,14 @@
         "__resolveType": "site/sections/Faq.tsx"
       },
       {
-        "__resolveType": "site/sections/Footer.tsx"
+        "__resolveType": "site/sections/Footer.tsx",
+        "subscribe": {}
+      },
+      {
+        "__resolveType": "Faq - default"
+      },
+      {
+        "__resolveType": "Faq - default"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
